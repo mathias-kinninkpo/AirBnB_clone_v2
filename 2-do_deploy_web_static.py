@@ -32,6 +32,7 @@ def do_pack():
 
 def do_deploy(archive_path):
     """
+    
     - Upload the archive to the /tmp/ directory of the web server
     - iUncompress the archive to the folder /data/web_static/releases/<archive
     filename without extension> on the web server
@@ -40,6 +41,7 @@ def do_deploy(archive_path):
     - Create a new the symbolic link /data/web_static/current on the web
     server, linked to the new version of your code
     (/data/web_static/releases/<archive filename without extension>)
+    
     """
     if not (os.path.exists(archive_path)):
         return False
