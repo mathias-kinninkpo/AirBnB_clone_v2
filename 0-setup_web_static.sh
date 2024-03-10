@@ -13,7 +13,7 @@ cat << EOF > /data/web_static/releases/test/index.html
   </head>
   <body>
     Holberton School<br>
-    Student Guy Ahonakpon GBAGUIDI
+    Student Mathias KINNINKPO
   </body>
 </html>
 EOF
