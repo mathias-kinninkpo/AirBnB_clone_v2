@@ -11,6 +11,7 @@ def do_pack():
     """
     Fabric script that generates a .tgz
     archive from the contents of the web_static folder
+    
     """
     date = str(datetime.now())\
         .split('.')[0]\
