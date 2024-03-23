@@ -25,6 +25,7 @@ Write a script that starts a Flask web application:
                     <city.id>: <B><city.name></B>
     Import this 7-dump to have some data
     You must use the option strict_slashes=False in your route definition
+    
 """
 from flask import Flask, render_template
 from models import storage
