@@ -12,7 +12,8 @@ Write a script that starts a Flask web application:
         variable (replace underscore _ symbols with a space )
             The default value of text is “is cool”
         /number/<n>: display “n is a number” only if n is an integer
-    You must use the option strict_slashes=False in your route definition
+    You must use the option strict_slashes=False in your route 
+    
 """
 from flask import Flask, abort
 
