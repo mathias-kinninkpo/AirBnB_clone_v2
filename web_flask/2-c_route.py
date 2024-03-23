@@ -23,13 +23,13 @@ def hello():
 
 @app.route("/hbnb", strict_slashes=False)
 def hbnb():
-    """display “HBNB”"""
+    """ display “HBNB”"""
     return "HBNB"
 
 
 @app.route("/c/<text>", strict_slashes=False)
 def c_route(text: str):
-    """display “C ” followed by the value of the text variable"""
+    """ display “C ” followed by the value of the text variable"""
     return "C " + text.replace("_", " ")
 
 
